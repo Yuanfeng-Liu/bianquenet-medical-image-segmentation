@@ -1,0 +1,85 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environments and editor settings
+.vscode/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+python
+.agents/
+.codex/
+
+# Dataset and local outputs
+data/
+tmp/
+output/
+*.mha
+*.mhd
+*.nii
+*.nii.gz
+*.nrrd
+*.dcm
+*.npy
+*.npz
+*.zip
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Papers and presentations
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.inspect.ndjson
+
+# Internal notes and report materials
+CODEx_NOTES.md
+bianquenet/PRESENTATION_SPEAKER_NOTES.md
+bianquenet/REPORT_MATERIALS.md
+bianquenet/EXPERIMENT_REPORT_DRAFT.md
+bianquenet/ppt_assets/
+
+# Step-by-step learning helpers kept locally but omitted from the portfolio
+unet/README.md
+unet/baseline/
+unet/check_*.py
+!unet/check_unet_forward.py
+unet/visualize_unet_prediction.py
+
+scripts/checks/check_dataset.py
+scripts/checks/check_processed.py
+scripts/checks/check_resized_data.py
+scripts/checks/check_resized_dataloader.py
+
+bianquenet/README.md
+bianquenet/check_*.py
+!bianquenet/check_bianquenet_stsc_forward.py
+bianquenet/export_raw_mha_for_ppt.py
+bianquenet/save_bianquenet_mff_predictions.py
+bianquenet/save_bianquenet_prediction.py
+bianquenet/save_bianquenet_predictions.py
+bianquenet/visualize_bianquenet_prediction.py
+
+# Generated figures
+unet/*.png
+bianquenet/*.png
+!bianquenet/bianquenet_stsc_architecture.png
+!bianquenet/bianquenet_stsc_dice_curve.png
+!bianquenet/predictions_stsc_best_grid_0_3.png
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
